@@ -17,7 +17,7 @@ def Litros (x,y,z):
     z=(x*z)//1
     cantidad=(y*z)//1
     return(cantidad)
-print("Se produjeron",Litros(Vacas,Dias,LitrosxVaca),"litros","de leche con ",Vacas," vacas,en una semana de 7 días")
+print("Se produjeron",Litros(Vacas,Dias,LitrosxVaca),"litros","de leche con ",Vacas," vacas,en 7 días")
 print("\n")
 
 ##PROBLEMAS---------------------------------------
