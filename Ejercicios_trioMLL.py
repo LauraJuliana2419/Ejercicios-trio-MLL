@@ -4,9 +4,10 @@
 
 ##Definir las variables ,y pedir los datos mediante un input para poder trabajar con los datos
 ##anteriormente transformados en en int
-print("\t\tLA GRANJA PRODUCTIVA\n Bienvenido a la granja, Somos expertos productores de leche y huevos a gran escala.")
 
-print("\nPRODUCCIÓN DE LITROS DE LECHE CORTE SEMANAL.\n")
+print("\n\t\tLA GRANJA PRODUCTIVA\n\nBienvenido a la granja, Somos expertos productores de leche y huevos a gran escala.")
+
+print("\n---PRODUCCIÓN DE LITROS DE LECHE CORTE SEMANAL---\n")
 
 LitrosxVaca= 15
 Dias=7
@@ -16,11 +17,11 @@ def Litros (x,y,z):
     z=(x*z)//1
     cantidad=(y*z)//1
     return(cantidad)
-print("Se produjeron",Litros(Vacas,Dias,LitrosxVaca),"litros","de leche con ",Vacas," vacas,en una semana de 7 días")
-print("\n")
-##PROBLEMAS
+print("Se produjeron",Litros(Vacas,Dias,LitrosxVaca),"litros","de leche con ",Vacas," vacas,en 7 días")
+
+##PROBLEMAS---------------------------------------
 def huevos():
-    print("\nPRODUCCIÓN DE HUEVOS CORTE MENSUAL.\n")
+    print("\n---PRODUCCIÓN DE HUEVOS CORTE MENSUAL---\n")
     aves=int(input("Ingrese el numero total de aves que hay en la granja: "))
 
     gallinas=aves//3
