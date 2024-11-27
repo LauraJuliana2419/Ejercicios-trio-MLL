@@ -4,6 +4,8 @@
 
 ##Definir las variables ,y pedir los datos mediante un input para poder trabajar con los datos
 ##anteriormente transformados en en int
+print("\t\tLA GRANJA PRODUCTIVA\n Bienvenido a la granja, Somos expertos productores de leche y huevos a gran escala.")
+
 print("\nPRODUCCIÓN DE LITROS DE LECHE CORTE SEMANAL.\n")
 
 LitrosxVaca= 15
