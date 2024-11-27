@@ -14,6 +14,7 @@ def Litros (x,y,z):
     lol=(y*z)//1
     return(lol)
 print("Se produjeron",Litros(Vacas,Dias,LitrosxVaca),"litros","de leche con ",Vacas," vacas,en una semana de 7 días")
+print("\n")
 ##PROBLEMAS
 def huevos():
     aves=int(input("Ingrese el numero total de aves que hay en la granja. "))
